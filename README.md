@@ -7,7 +7,7 @@ We imported both csv files into Pandas Dataframes and used pandas, numpy, and da
 
 We then created an SQL table in PgAdmin for both csv files. We used QuickDBD to map out our tables, using the same column names and assigning the equivalent datatypes then assigning the date column as our primary key. In PGadmin, we added additional code to our scheme including dropping pre-existing tables and performing an outer join on the two tables using the date columns are our joinging point.  
 
-We decided on performing an outer joing on our tables in order to keep both sets of data for date, open, close, high, low, and volume values while also allowing us to add in and compare the data for the adjusted close and market cap values that were unique to the two different data sets. 
+We decided on performing an outer join on our tables in order to keep both sets of data for date, open, close, high, low, and volume values while also allowing us to add in and compare the data for the adjusted close and market cap values that were unique to the two different data sets. 
 
 Data Sources:
 https://www.kaggle.com/dhruvildave/dogecoin-historical-data
